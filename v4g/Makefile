@@ -1,5 +1,5 @@
 create-practice:
-	mkdir -p auto
+	mkdir -p $(NAME)
 
 remove-practice:
-	rm -rf auto
+	rm -rf $(NAME)
